@@ -5,7 +5,7 @@ export default function Landing(){
 
 
     return(
-        <div className="landing">
+        <div className="landing flex flex-col gap-10">
             
 
             <div className="flex flex-col pl-24 pt-24 gap-5">
@@ -16,6 +16,34 @@ export default function Landing(){
                     we will guide you with data and expertise specific to your needs.
 
                 </div>
+            </div>
+
+
+
+            <div className="flex items-center justify-center gap-32">
+ 
+
+                <div className="flex flex-col  gap-5">
+
+                    <div className="text-2xl">Upload your property in 4  simple steps</div>
+
+                    <div className="text-xl font-thin flex flex-col gap-2">
+                        <div>✅ Add your properties <span>Basic Details</span></div>
+                        <div>✅ Add property <span>Location</span></div>
+                        <div>✅ Add property <span>Features and amenities</span></div>
+                        <div>✅ Add <span>Price details</span></div>
+                        <div>✅ Add your best <span>Property Shots</span></div>
+                    </div>
+
+                </div>
+
+
+
+                <div className="">
+                    <h1>WHere the form goes</h1>
+                </div>
+
+
             </div>
             
         </div>
