@@ -1,6 +1,4 @@
-*{
-    font-family: Arial, Helvetica, sans-serif;
-}
+
 
 body,html{
     width: 100vw;
@@ -19,3 +17,15 @@ body,html{
     font-weight: 700;
     font-family: "Inter";
 }
+
+
+
+.landing{
+    font-family: "Merriweather Sans";
+    background-color: #122B49;
+    color: white;
+    
+
+}
+
+

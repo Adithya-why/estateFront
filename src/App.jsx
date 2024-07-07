@@ -3,6 +3,7 @@ import { useState } from 'react'
 import './App.css'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import Navbar from './common/NavBar'
+import Landing from './components/Landing'
 
 function App() {
   
@@ -17,7 +18,15 @@ function App() {
 
       <Routes>
 
-        <Route path='/' element={<div className='bg-blue-800'>Home page</div>}/>
+        <Route path='/' element=
+
+        {
+        <Landing>
+          
+        </Landing>
+        }
+        
+        />
 
       </Routes>
 
