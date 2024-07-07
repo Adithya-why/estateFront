@@ -1,4 +1,4 @@
-export default function Landing(){
+export default function Landing( { children }){
 
 
 
@@ -25,7 +25,7 @@ export default function Landing(){
 
                 <div className="flex flex-col  gap-5">
 
-                    <div className="text-2xl">Upload your property in 4  simple steps</div>
+                    <div className="text-2xl">Upload your property in 4 simple steps</div>
 
                     <div className="text-xl font-thin flex flex-col gap-2">
                         <div>✅ Add your properties <span>Basic Details</span></div>
@@ -39,8 +39,8 @@ export default function Landing(){
 
 
 
-                <div className="">
-                    <h1>WHere the form goes</h1>
+                <div className="w-1/3 rounded-xl overflow-hidden">
+                    {children}
                 </div>
 
 

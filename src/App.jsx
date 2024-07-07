@@ -4,6 +4,7 @@ import './App.css'
 import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import Navbar from './common/NavBar'
 import Landing from './components/Landing'
+import LoginForm from './components/LoginForm'
 
 function App() {
   
@@ -22,7 +23,7 @@ function App() {
 
         {
         <Landing>
-          
+          <LoginForm/>
         </Landing>
         }
         
