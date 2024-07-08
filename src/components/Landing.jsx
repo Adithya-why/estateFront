@@ -5,7 +5,7 @@ export default function Landing( { children }){
 
 
     return(
-        <div className="landing flex flex-col gap-10">
+        <div className="landing flex flex-col">
             
 
             <div className="flex flex-col pl-24 pt-24 gap-5">
@@ -20,10 +20,10 @@ export default function Landing( { children }){
 
 
 
-            <div className="flex items-center justify-center gap-32">
+            <div className="flex items-start justify-center gap-32 mt-20">
  
 
-                <div className="flex flex-col  gap-5">
+                <div className="flex flex-col  gap-5 ">
 
                     <div className="text-2xl">Upload your property in 4 simple steps</div>
 
@@ -39,7 +39,7 @@ export default function Landing( { children }){
 
 
 
-                <div className="w-1/3 rounded-xl overflow-hidden">
+                <div className="w-1/3 h-2/5 rounded-xl overflow-y-scroll">
                     {children}
                 </div>
 

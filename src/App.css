@@ -5,12 +5,17 @@ body,html{
     height: 100vh;
 }
 
+
+/*Main alignment of the page*/
 #root{
     width: 100%;
     height: 100%;
     display: grid;
-    grid-template-rows: 8% auto;
+    grid-template-rows: 8% 92%;
     grid-auto-rows: auto;
+    overflow: hidden;
+
+    
 }
 
 .menus div{
@@ -32,4 +37,8 @@ body,html{
     font-weight: bold;
 }
 
+
+::-webkit-scrollbar{
+    width: 50%;
+}
 
