@@ -1,6 +1,11 @@
-export default function LoginForm(){
+export default function LoginForm({ next, formStage }){
 
-
+    //function to update formstage to next stagae
+    //goes to next page
+    function nextStage(){
+        next(formStage+1);
+        
+    }
 
 
     return(
@@ -81,7 +86,7 @@ export default function LoginForm(){
                     <div className="flex items-center justify-between">
                         <div><span>Need help?</span> Call 999999999 </div>
                         <div>
-                            <button className="bg-[#122B49] text-white p-3 rounded-xl pl-5 pr-5">Next</button>
+                            <button className="bg-[#122B49] text-white p-3 rounded-xl pl-5 pr-5" onClick={nextStage}>Next</button>
                         </div>
                     </div>
 
