@@ -18,6 +18,9 @@ body,html{
     
 }
 
+
+
+/*Navbar stuff*/
 .menus div{
     font-weight: 700;
     font-family: "Inter";
@@ -25,6 +28,8 @@ body,html{
 
 
 
+
+/*landing page*/
 .landing{
     font-family: "Merriweather Sans";
     background-color: #122B49;
@@ -40,5 +45,12 @@ body,html{
 
 ::-webkit-scrollbar{
     width: 50%;
+}
+
+.landinginput{
+    padding: 0.5rem;
+    border: 2px solid #7A7A7A;
+    border-radius: 0.25rem;
+    width: 75%;
 }
 
